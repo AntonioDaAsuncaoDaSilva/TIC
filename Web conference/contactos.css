@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),rgb(10, 224, 178);
+    /*background-image:linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),
+    url(img/24-09-Blog-advantages-of-web-conferencing.png);*/
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: #18929D;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+nav li{
+    margin-left: 7px;
+    cursor: pointer;
+}
+nav li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+nav li a:hover{
+background-color: white;
+color: rgb(10, 226, 241);
+cursor: pointer;
+}
+.div{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.coluna1{
+    width: 30%;
+    font-size: 14px;
+}
+.card{
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0px 10px;
+}
+.card:hover{
+    transform: translateX(+15px);
+    transition: 0.5s;
+}
+h5{
+    text-align: center;
+    color:black;
+}
+.card1{
+    background-color: rgb(240, 225, 12);
+}
+.card2{
+    background-color: green;
+}
+.card3{
+    background-color: tomato;
+}
+.card4{
+    background-color: aqua;
+}
+.card5{
+    background-color:blueviolet;
+}
+.coluna2{
+    width: 70%;
+    margin: 5px 20px;
+}
+footer{
+    background-color: #18929D;
+}
+footer .texto{
+    text-align: center;
+}
+footer a{
+text-decoration: none;
+}
+footer .programador{
+    text-align: right;
+}
