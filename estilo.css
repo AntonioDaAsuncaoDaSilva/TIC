@@ -166,6 +166,14 @@ padding-left: auto;
     height: auto;
     overflow: hidden;
 }
+.card{
+ width: 20%;
+ 
+ border-radius: 10px;
+ border: 2px solid ;
+}
 /*Enfeito carrocel*/
 
+
 /*in da estilização do botão /*
+/*Estilizando a página de secções*/
