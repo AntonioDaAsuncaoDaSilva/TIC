@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    
+    padding-top: 5vh;
+    background-image:linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url(/TIC/img/cadastrar.jpg);
+    background-position-y: -115px;/* Deixando a imagem no eixo y com -130px*/
+    background-size: cover;
+   
+}
+
+
+main{
+width: 500px;
+height: 450px;
+margin-left: auto;
+margin-right: auto;
+background-color: aliceblue;
+border: 2px solid;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+padding: 0 50px;
+}
+/*Estilizando a palavra login*/
+.login{
+    font-size: 28px;
+    color:#0d6efd; 
+    text-align: center;
+    padding-top: 5px;
+
+    padding: 0 148px;
+}
+/* EStilizando o formulário */
+
+.fle-box{
+flex: 1 1 100%;
+ position: relative;
+}
+
+/*Estilizando os label dos input*/
+label{
+    font-size: 18px;
+    padding-top: 2px;
+   
+
+}
+label:hover{
+    color:#0d6efd
+}
+/* Estilizando o input*/
+input{ 
+    width: 100%;
+background-color:aliceblue ;
+    border: none;/* com isso tiramos as bordas do input*/
+    border-bottom: 2px solid black; /*permite deixar o input com uma linha preta com a expessura de 2px na cor preta e ela deve ser sólida*/
+}
+/* Estilizando o input para quando passarem o cursor sobre ele*/
+input:hover{
+    border-bottom: 2px solid #0d6efd ;
+}
+
+/* Estilizando o input para não ter as bordas por cima e ter somente uma linha contínua quando o input estiver seleccionado, ou seja, em focu   */
+input:focus , label:focus{
+    outline:none;
+    border-bottom: 2px solid #0d6efd ;
+    }
+    
+
+/* Estilizando o link que redireciona para a página de login*/
+.linkl{
+    padding-top: 5px;
+    padding-left: 7%;
+    margin-left: 0;
+    text-align: justify;
+    cursor:pointer;
+
+}
+.linkl a{
+    text-align: justify;
+    text-decoration: none;
+    
+}
+
+/* estilizando o  botão de submite*/
+.btn /*btn-primary*/{
+        color: rgb(247, 242, 242);
+        background-color: #0D6EFD;
+        justify-content: center;
+        align-items: center;
+        margin-left:15%;
+        height: 35px;
+        width: 65%;
+        
+}
+.btn:focus{
+    outline:none;
+}
+.btn a{
+   padding-top: 0;
+    font-size: 18px;
+    color:rgb(233, 232, 232);
+    text-decoration: none;
+}

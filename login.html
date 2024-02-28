@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>WebConfeenci</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/TIC/webgrupo1/bootstrap.min.css">
+</head>
+<body>
+
+<main class="con">
+    <!--Criando o formuário-->
+   
+       <form action="#" method="post" id="myForm" onsubmit="eventoClick()">
+        
+<article> <p class="login">Cadastro</p></article><br>
+
+
+<div class="user">
+<article class="half-box spacing">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" require maxlength="10">
+</article>
+
+    <article class="half-box">
+    <label for="name">Sobrenome</label>
+    <input type="text" name="name" id="name" require maxlength="10">
+</article>
+
+</div>
+
+<article class="half-box spacing">
+    <label for="password">Senha</label>
+    <input type="password" name="password" id="password" minlength="8" maxlength="20" required  >
+</article>
+<br>
+<article class="half-box ">
+    <label for="senha">Confirmar</label>
+    <input type="password" name="senha" id="senha"  minlength="8" maxlength="20" required  >
+</article>
+<br><br>
+<article class="half-box spacing">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required maxlength="30">
+</article>
+<br>
+
+<br>
+<article class="linkl">
+    <a href="cadastrar.html">Já Tenho uma conta</a>
+</article>
+
+<article class="full-box ">
+    
+    <button type="submit"  class="btn btn-primary" >
+        Registar-me
+    </button>
+   
+
+</article>
+</form>
+</main>
+<script src="bootstrap.bundle.min.js"></script>
+     <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    
+    padding-top: 5vh;
+    background-image:linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url(/TIC/img/login.jpeg);
+    background-position-y: -130px;
+    background-size: cover;
+   
+}
+input, label{
+display: block;
+width: 100%;
+}
+input:focus , label:focus{
+    outline:none;
+   
+   
+}
+
+main{
+width: 500px;
+height: 450px;
+margin-left: auto;
+margin-right: auto;
+background-color: aliceblue;
+border: 2px solid;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+padding: 0 50px;
+}
+.login{
+    font-size: 28px;
+    color:#0d6efd; 
+    text-align: center;
+    padding-top: 5px;
+
+    padding: 0 148px;
+}
+.user{
+    display: flex;
+   
+
+}
+.use, article{
+    padding: 0 5px;
+    
+}
+
+
+.full-box{
+    padding-top: 40px;
+    padding-left: 38%;
+    align-items: center;
+    cursor:pointer;
+}
+/*Estilizando o formulário*/
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.fle-box{
+flex: 1 1 100%;
+ position: relative;
+}
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing{
+    margin-right: 2,5%;
+}
+ /*Estilizando o label*/
+label{
+    font-size: 18px;
+    padding-top: 15px;
+   
+
+}
+label:hover{
+    color:#0d6efd
+}
+
+/* Estilizando o input*/
+input{ 
+    
+background-color:aliceblue ;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input:hover{
+    
+  
+    border-bottom: 2px solid #0d6efd ;
+}
+
+input:focus{
+    
+
+    border-bottom: 2px solid #0d6efd ;
+}
+
+.linkl{
+    padding-top: 10px;
+    padding-left: 18%;
+    padding-right: 30%;
+    text-align: right;
+    cursor:pointer;
+
+}
+.linkl a{
+    
+    text-align: right;
+    text-decoration: none;
+    
+}
+
+
+
+/* Estilizando o botão de submit*/
+.btn /*btn-primary*/ {
+background-color: #0d6efd;
+    padding-top: 0;
+    margin-top: 0;
+    color: black;
+
+}
